@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* overflow-x: hidden; */
+    
     
 }
 
 html{
-  overflow: hidden;
+ 
    
     font-family: 'Lato';
     font-size: 120%;
@@ -20,9 +20,7 @@ html{
     margin: 0 auto;
 }
 
-header, section, footer{
-  overflow: hidden;
-}
+
 
 header{
      background-color: white;
@@ -32,7 +30,7 @@ header{
     height: 100vh;
     background-size: cover;
     background-position: center;
-    overflow: hidden;
+  
 }
 
 .main-nav li:hover{
