@@ -21,8 +21,8 @@
     .main-nav {
     display: flex;
     justify-content: space-between;
-    gap: 3rem;
-    /* margin-left: 30px; */
+    gap: 0rem;
+    margin-left: 30px;
 }
 
 
@@ -39,15 +39,17 @@
     }
 
     .row-cities{
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         text-align: center;
     }
 
 
     .row-cities img {
-    width: 100%;
-    max-width: 300px;
-    height: 350px;
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        max-width: 200px;
+        margin: 10px auto;
     align-items: center;
     border-radius: 20px;
     box-shadow: 5px 5px 5px 5px #777575;
@@ -62,6 +64,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.meals-showcase { grid-template-columns: 1fr 1fr; }
 
 .contact-form{
     box-shadow: none;
@@ -103,12 +107,11 @@
     /* html, body {
   overflow-x: hidden;
     } */
-
-    .main-nav {
+ .main-nav {
     display: flex;
     justify-content: space-between;
-    gap: 3rem;
-    /* margin-left: 15px; */
+    gap: 0rem;
+    margin-left: 30px;
 }
 
 
@@ -150,6 +153,7 @@
     box-sizing: border-box;
 }
 
+.meals-showcase { grid-template-columns: 1fr 1fr; }
 /* .row-form{margin-left: 60px;} */
     
 
@@ -191,10 +195,12 @@
     }
 
     .main-nav {
-        gap: 1.2rem;
-        margin: 25px 0 0 0;
-        padding: 0;
-    }
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    font-size: large;
+    margin-left: 30px;
+}
 
     .main-nav li a {
         font-size: 70%;
@@ -268,8 +274,8 @@
     }
 
     .mob-img {
-        width: 70%;
-        height: auto;
+        width: 50%;
+        height: 60%;
     }
 
     .store-pic img {
@@ -285,10 +291,13 @@
         grid-template-columns: 1fr;
     }
 
+    .meals-showcase { grid-template-columns: 1fr 1fr; }
+
     .row-cities img {
         width: 100%;
-        max-width: 250px;
+        max-width: 200px;
         height: auto;
+        max-width: 200px;
         margin: 10px auto;
     }
 
